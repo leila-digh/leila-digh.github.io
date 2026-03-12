@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Georama:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font-bricolage: "Bricolage Grotesque", sans-serif;
+  --font-noto-sans: "Noto Sans", sans-serif;
+  --font-roboto-mono: "Roboto Mono", monospace;
+
+
+  --color-background: #AFD6E7;
+  --color-not-white: #FAF9F6;
+  --color-not-black: #404E5C;
+}
+
+body {
+    background-color: var(--color-not-white);
+    background-image:  linear-gradient(var(--color-background) 1px, transparent 1px), linear-gradient(to right, var(--color-background) 1px, var(--color-not-white) 1px);
+    background-size: 50px 50px;
+
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+h1 {
+    font-family: var(--font-bricolage);
+    font-size: 3rem;
+}
+
