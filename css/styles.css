@@ -9,6 +9,14 @@
   --color-background: #AFD6E7;
   --color-not-white: #FAF9F6;
   --color-not-black: #404E5C;
+
+    --color-dark-mustard-yellow: #FBCA1F; 
+  --color-light-greyish-yellow: #FEF29A;
+  --color-dark-greyish-blue: #51cfe2;
+  --color-light-neon-blue: #51f0f4;
+  --color-greyish-teal: #00ad9a;
+  --color-darkish-purple: #b771c5;
+  --color-dark-red: #d25127;
 }
 
 body {
@@ -20,6 +28,7 @@ body {
     height: 100vh;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -29,5 +38,15 @@ body {
 h1 {
     font-family: var(--font-bricolage);
     font-size: 3rem;
+    margin: 0;
+}
+
+.link {
+    font-family: var(--font-noto-sans);
+    font-size: 1rem;
+    color: var(--color-darkish-purple);
+    margin-top: 0.5rem;
+    background-color: var(--color-not-white);
+    font-weight: bold;
 }
 
